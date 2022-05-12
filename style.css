@@ -1,0 +1,28 @@
+.header{
+    color: black;
+    border: blue;
+    border-radius: 20px;
+    width: 100%;
+   }
+
+   canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+
+from {box-shadow: 1px 1px 38px red;}
+to {box-shadow: 1px 1px 38px white;}
+
+}
+
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+}
